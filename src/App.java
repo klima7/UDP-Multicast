@@ -18,7 +18,7 @@ public class App extends JFrame implements Writable {
 	private JCheckBox broadcastCheckbox;
 
 	public App() {
-		setTitle("UDP");
+		setTitle("UDP Multicast / Broadcast");
 		setSize(550, 400);
 		setResizable(false);
 
@@ -145,7 +145,7 @@ public class App extends JFrame implements Writable {
 	public static void main(String[] args) {
 		App app = new App();
 		app.setVisible(true);
-		app.write("ZPI - UDP");
+		app.write("UDP Multicast / Broadcast");
 		app.write("-".repeat(50));
 	}
 
